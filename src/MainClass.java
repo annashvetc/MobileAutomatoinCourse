@@ -8,4 +8,9 @@ public class MainClass {
     public int getClass_number() {
         return class_number;
     }
+
+    private String class_string = "Hello, world";
+    public String getClassString() {
+        return class_string;
+    }
 }
