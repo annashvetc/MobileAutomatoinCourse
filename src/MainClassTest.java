@@ -14,4 +14,14 @@ public class MainClassTest extends MainClass
 
     }
 
+    @Test
+
+    public void testGetClassNumber() {
+
+        int a = this.getClass_number();
+
+        Assert.assertTrue("It's false, a is less or equal 45", a > 45);
+    }
+
+
 }
