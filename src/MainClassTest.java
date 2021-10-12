@@ -10,7 +10,7 @@ public class MainClassTest extends MainClass
         int expected = 14;
         int actual = this.getLocalNumber();
 
-        Assert.assertTrue("Actual number is not 14", actual == expected);
+        Assert.assertEquals("The actual number is not 14", expected, actual);
 
     }
 
